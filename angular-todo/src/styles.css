@@ -1,0 +1,37 @@
+* {
+    
+    box-sizing: border-box;
+    margin: auto;
+    padding: 0;
+}
+
+body {
+    font-family: monospace;
+    font-size: x-large;
+    font-kerning: auto;
+    line-height: 2.0;
+    margin: auto;
+    background-image: rgb(255, 253, 233);
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+.container {
+    padding: 0 1rem;
+}
+
+.btn {
+    display: inline-block;
+    border: none;
+    background: #555;
+    color: #dbfeff;
+    padding: 7px 20px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background: #666;
+}
